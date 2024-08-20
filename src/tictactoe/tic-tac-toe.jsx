@@ -1,9 +1,16 @@
 import React from 'react'
-
+import "./TicTacToe.css"
+import O from "../assets/O.png"
+import X from "../assets/X.png"
 function TicTacToe() {
   return (
-    <div>
-      <h1>tic tac toe game</h1>
+    <div className="container">
+      <div className="title">Tic Tac Toe<span>by React</span></div>
+      <div className="game-board">
+
+
+      </div>
+      <button className="reset">Reset</button>
     </div>
   )
 }
