@@ -26,3 +26,25 @@
     background-color: purple;
     margin:50px;
 }
+
+.boxes {
+    height: 180px;
+    width: 180px;
+    display:flex;
+    background:purple;
+    border: 4px solid white;
+    border-radius: 15px;
+    cursor:pointer;
+
+}
+
+.game-board{
+    width:600px;
+    height: 560px;
+    display:flex;
+    margin:auto;
+}
+
+.boxes img {
+    margin:50px 50px;
+}
