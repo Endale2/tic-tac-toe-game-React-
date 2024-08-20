@@ -9,3 +9,20 @@
    justify-content: center;
    align-items: center;
 }
+.title span{
+    color:orange;
+    padding:10px;
+}
+
+.reset{
+    width: 250px;
+    height:100px;
+    cursor:pointer;
+    outline:none;
+    border:none;
+    border-radius:50px;
+    font-size: 26px;
+    color:white;
+    background-color: purple;
+    margin:50px;
+}
