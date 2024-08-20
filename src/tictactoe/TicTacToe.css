@@ -1,12 +1,9 @@
-body {
-    background-color: #222;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .container {
+.container {
     text-align: center;
     color: #fff;
     padding: 20px;
+    box-sizing: border-box;
+    max-width: 100%;
   }
   
   .title {
@@ -19,7 +16,7 @@ body {
   }
   
   .title span {
-    color: orange;
+    color: #4caf50; /* Light Green */
     padding: 10px;
   }
   
@@ -32,13 +29,13 @@ body {
     border-radius: 25px;
     font-size: 18px;
     color: white;
-    background-color: #6a1b9a;
+    background-color: #388e3c; /* Strong Green */
     margin: 20px;
     transition: background-color 0.3s ease;
   }
   
   .reset:hover {
-    background-color: #8e24aa;
+    background-color: #2e7d32; /* Darker Green */
   }
   
   .game-board {
@@ -55,7 +52,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #512da8;
+    background: #4caf50; /* Light Green */
     border: 4px solid white;
     border-radius: 15px;
     cursor: pointer;
@@ -68,13 +65,13 @@ body {
   }
   
   .boxes:hover {
-    background-color: #673ab7;
+    background-color: #66bb6a; /* Lighter Green */
     transform: scale(1.05);
   }
   
   .result {
     font-size: 28px;
-    color: #ffeb3b;
+    color: #cddc39; /* Lime Green */
     margin-top: 20px;
   }
   
